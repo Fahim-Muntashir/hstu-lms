@@ -19,7 +19,12 @@
     cursor: pointer;
 }
 
+section {
+    height: 100vh;
+}
+
 nav {
+    height: 13vh;
     background-color: white;
     padding: 40px 0px 0px 40px;
 }
@@ -30,11 +35,12 @@ nav img {
 
 .bottom-div {
     background-color: green;
-    height: 16vh;
+    height: 17vh;
     margin-top: auto;
 }
 
 .form-bg {
+    height: 70vh;
     background-color: #75D975;
     padding: 10px 20px;
     /* Adjusted padding for smaller devices */
