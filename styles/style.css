@@ -19,30 +19,34 @@
     cursor: pointer;
 }
 
+
 section {
     height: 100vh;
 }
 
 nav {
-    height: 13vh;
     background-color: white;
     padding: 40px 0px 0px 40px;
+    height: 16vh;
 }
 
 nav img {
     height: 50px;
+    margin-bottom: 0px;
 }
 
 .bottom-div {
     background-color: green;
-    height: 17vh;
+    height: 10vh;
     margin-top: auto;
 }
 
-.form-bg {
-    height: 70vh;
+.main-bg {
     background-color: #75D975;
-    padding: 10px 20px;
+    padding: 20px 20px;
+    height: 74vh;
+    display: grid;
+    align-items: center;
     /* Adjusted padding for smaller devices */
 }
 
@@ -94,6 +98,212 @@ nav img {
     margin-left: 10px;
 }
 
+
+/* OverViewe page Style 
+
+---------------------------*/
+.dashboard-bg {
+    background-color: white;
+    display: grid;
+    grid-template-columns: 2fr 7.5fr 2.5fr;
+    height: 74vh;
+}
+
+
+/* SideNav */
+
+.sidenav {
+    display: grid;
+    text-align: center;
+}
+
+
+
+/* .sidenav  {} */
+
+.sidenav a {
+    padding: 14px 15px;
+    border: 1px solid black;
+    border-bottom: none;
+    font-size: large;
+    font-weight: 570;
+    text-decoration: none;
+    letter-spacing: 1px;
+    color: black
+}
+
+.sidenav a:hover {
+    background-color: #0A9A1D;
+    color: #fff;
+}
+
+.sidenav a:active {
+    background-color: #0A9A1D;
+}
+
+
+/* sidenav end */
+
+/* Overviw Dashboard Start */
+
+
+
+.overview-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px 30px;
+    padding: 10px 20px;
+}
+
+.overview-content div {
+    background-color: #E0F8E0;
+    margin: 3px;
+    border-radius: 30px;
+    padding: 10px
+}
+
+.overview-content div h4 {
+    text-align: center;
+    margin: 10px;
+}
+
+/* Table styles for Exam */
+.upcoming-exam {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 14px;
+}
+
+.upcoming-exam th,
+.upcoming-exam td {
+    padding: 4px;
+    text-align: center;
+}
+
+
+.class-foram .class-foram-container {
+    display: flex;
+}
+
+.overview {
+    border-top: 1px solid black;
+}
+
+.overview h1 {
+    text-align: center;
+    margin: 10px 0px;
+}
+
+.view-all {
+    color: green;
+    font-weight: bold;
+    width: full;
+    margin-left: 80%;
+}
+
+/* performance section */
+
+.circle-persent {
+    display: flex;
+    justify-content: space-between;
+}
+
+.circle-persent div {
+    padding: 16px;
+    border-radius: 50%;
+}
+
+.attendence-circle {
+    border: 22px solid #0A9A1D;
+}
+
+.quiz-circle {
+    border: 22px solid rgb(3, 3, 240);
+}
+
+.mid-circle {
+    border: 22px solid red;
+}
+
+.mini-circle-text {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Class and Foram */
+
+.class-foram {
+    display: grid;
+    grid-column-gap: 8px !important;
+    background-color: white !important;
+    padding: 0px !important;
+}
+
+.class-foram-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 !important;
+}
+
+.class-foram-container div {
+    height: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.class-foram-container .sideLink {
+    background-color: #0A9A1D;
+    width: 60px;
+    border-radius: 0px 30px 30px 0px;
+    margin: 0;
+    font-size: 100px;
+    color: #ffff;
+}
+
+.class-foram-container .sideLink img {
+    width: 100px;
+    height: 80px;
+}
+
+.class-foram-container div p {
+    font-weight: bolder;
+    text-align: center;
+    margin: 0px 80px;
+}
+
+/* Overview Section ended Sedule Section Start */
+.sechedule {
+    background-color: #9acf9ad8;
+}
+
+.sechedule-header {
+    background-color: #75D975;
+    padding: 30px 10px 10px 10px;
+}
+
+.sechedule-card {
+    background-color: #D6EDD6;
+    margin: 10px 5px;
+    padding: 20px 30px;
+    border-radius: 20px;
+}
+
+.sechedule-card h4 {
+    margin-bottom: 15px;
+}
+
+.sechedule-card div {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+
 /* Media Queries */
 @media only screen and (min-width: 768px) {
     .form {
@@ -112,6 +322,7 @@ nav img {
 
     nav img {
         height: 40px;
+        margin-bottom: 0px;
     }
 
     .form-bg {
