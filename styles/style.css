@@ -99,8 +99,8 @@ nav img {
 }
 
 
-/* OverViewe page Style 
-
+/* OverViewe page Style Start
+----------------------------------------------------------------
 ---------------------------*/
 .dashboard-bg {
     background-color: white;
@@ -313,6 +313,11 @@ nav img {
     .form input {
         padding: 5px 40px;
     }
+
+    .dashboard-bg {
+        grid-template-columns: 1fr 3fr 1fr;
+        /* Example adjustment */
+    }
 }
 
 @media only screen and (max-width: 767px) {
@@ -335,5 +340,18 @@ nav img {
 
     .form input {
         padding: 5px 20px;
+    }
+
+    .dashboard-bg {
+        grid-template-columns: 1fr;
+        /* Example adjustment */
+        height: auto;
+        /* Adjust height as needed */
+    }
+
+    /* Adjustments for .sidenav */
+    .sidenav {
+        grid-template-columns: 1fr;
+        /* Example adjustment */
     }
 }
