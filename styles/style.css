@@ -140,6 +140,7 @@ nav img {
     justify-content: center;
     color: #7c0c0c;
     cursor: pointer;
+    display: none;
 }
 
 .sidenav a {
@@ -413,6 +414,10 @@ nav img {
         height: 100%;
         background-color: #ffffff;
         transition: left 0.3s ease;
+    }
+
+    .header-close {
+        display: block;
     }
 
     .sidenav.active {
