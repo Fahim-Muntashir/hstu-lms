@@ -30,6 +30,7 @@ nav {
     height: 16vh;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 nav i {
@@ -40,9 +41,22 @@ nav i {
     display: none;
 }
 
+nav .profile {
+    display: block;
+    margin-right: 20px;
+    font-size: 40px;
+    color: #0A9A1D;
+}
+
+
+
 nav img {
     height: 50px;
     margin-bottom: 0px;
+}
+
+.logo-container {
+    display: flex
 }
 
 .bottom-div {
@@ -336,7 +350,128 @@ nav img {
     margin-bottom: 20px;
 }
 
+/* Attendence */
+.attendence-container {
+    display: flex;
+    margin: 200px 0;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
 
+.attendence-container h1 {
+    margin-bottom: 20px;
+}
+
+/* Profile */
+
+.profile-container {
+    align-items: center;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.profile-container div {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.profile-container h5 {
+    font-size: 23px;
+    margin: 10px 0;
+}
+
+.profile-container p {
+    margin: 10px 0;
+    text-align: left;
+}
+
+.profile-container i {
+    font-size: 100px;
+    color: #0A9A1D;
+}
+
+.active-profile {
+    background-color: #0A9A1D;
+    color: white !important;
+    padding: 0;
+}
+
+.profile-link {
+    text-decoration: none;
+}
+
+/* Assingment Containe style */
+.assignment-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px
+}
+
+.assingment-details p {
+    text-align: left;
+    margin: 10px;
+}
+
+.assingment-details p span {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.assingment-details a {
+    color: black;
+}
+
+.assingment-details-btn {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 200px;
+}
+
+/* Practice Module  */
+.practice-module-container {
+    margin: 20px 40px;
+}
+
+.practice-module-container div {
+    display: flex;
+    align-items: center;
+    margin: 20px 40px;
+
+    justify-content: end;
+}
+
+/* exam */
+.exam-container div {
+    margin: 130px 40px;
+}
+
+
+/* discussion container */
+.discussion-container {
+    width: full;
+    margin: 10px;
+    height: 400px;
+    background-color: #E0F8E0;
+    padding: 30px;
+}
+
+.discussion-container .profile {
+    display: flex;
+    gap: 4px;
+    font-weight: bold;
+}
+
+.profile-photo {
+    background-color: #7c0c0c;
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+}
 
 /* Media Queries */
 @media only screen and (min-width: 768px) {
