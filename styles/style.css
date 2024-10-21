@@ -8,6 +8,10 @@
     font-family: "Roboto", sans-serif;
 }
 
+body {
+    height: 100vh;
+}
+
 .btn {
     background-color: #0A9A1D;
     color: white;
@@ -82,7 +86,7 @@ nav img {
     background-color: white;
     display: grid;
     grid-template-columns: 2fr 10fr;
-    height: 74vh;
+    height: 100vh;
 }
 
 .overview-container {
